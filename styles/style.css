@@ -80,6 +80,9 @@ body {
 .logo{
     font-size: 4rem;
 }
+#menu-icon{
+    display: none;
+}
 nav li{
     display: inline-block;
     margin-right: 2rem;
@@ -411,6 +414,14 @@ nav li:last-child{
         }
         .copy-rights p{
             margin-top: 1.5rem;
+        }
+        #menu-icon{
+            display: block;
+            margin-top: 1.5rem;
+            cursor: pointer;
+        }
+        .hidden{
+            display: none;
         }
     }
     @media (max-width: 400px) {
